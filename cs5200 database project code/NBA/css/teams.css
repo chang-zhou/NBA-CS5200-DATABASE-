@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  color:rgb(150,50,50);
+}
+
+header nav {
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+header a {
+  color:blue;
+}
+
+header a:hover {
+  color:red;
+}
+
+section .row a {
+  font-weight: 700;
+  color:rgb(150,100,100);
+}
+
+section .row a:hover {
+  color:red;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-sm-7{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+

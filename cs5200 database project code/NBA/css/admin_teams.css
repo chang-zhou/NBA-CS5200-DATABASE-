@@ -1,0 +1,105 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  color:rgb(150,50,50);
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+header a {
+  font-weight: 700;
+  color:blue;
+}
+
+header a:hover {
+  color:red;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('/image/nba_dunk.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 600;
+  margin: 10;
+  color: #fff;
+  position: relative;
+  bottom: 50px;
+}
+
+section .row a {
+  color:blue;
+}
+
+section .row a:hover {
+  color:red;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+caption {
+  color: rgb(150,50,50);
+  font-weight: 500;
+}
+
+table {
+  margin-top: 40px;
+}
+
